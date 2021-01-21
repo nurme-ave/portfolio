@@ -168,11 +168,5 @@ ol.project-links {
 footer {
   text-align: center;
   color: #000;
-  letter-spacing: .2vw;
+  letter-spacing: .1vw;
 }
-
-/* @media all and (max-width: 850px) {
-  .overlay {
-    flex-direction: column;
-  }
-} */
