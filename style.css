@@ -57,7 +57,7 @@ video {
 
 .margin-right-2 {
   margin-right: 65px;
-  /* font-size: calc(3px + 1vw); */
+  font-size: calc(6px + 1vw);
 }
 
 ul.social-icons {
