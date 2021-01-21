@@ -52,12 +52,12 @@ video {
 
 .ease {
   transition: .7s ease-in-out;
-  font-size: calc(6px + 1vw);
+  /* font-size: calc(5px + 1vw); */
 }
 
 .margin-right-2 {
   margin-right: 65px;
-  font-size: calc(6px + 1vw);
+  /* font-size: calc(3px + 1vw); */
 }
 
 ul.social-icons {
@@ -80,7 +80,7 @@ h1.welcome {
   letter-spacing: 1vw;
   text-align: center;
   width: 38ch;
-  animation: typing 2s steps(38), blink .5s 1;
+  animation: typing 2s steps(40), blink .5s 1;
   white-space: nowrap;
   overflow: hidden;
   /* font-size: 5vh; */
