@@ -1,0 +1,178 @@
+/* Style for the whole document */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Castoro', serif;
+}
+
+
+/* Style for the header */
+
+.video-images {
+  background: url(images/night.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: calc(6px + 0.5vw);
+}
+
+/* span {
+  font-size: calc(5px + 1vw);
+} */
+
+.ease {
+  transition: .7s ease-in-out;
+  /* font-size: calc(5px + 1vw); */
+}
+
+.margin-right-2 {
+  margin-right: 65px;
+  /* font-size: calc(3px + 1vw); */
+}
+
+ul.social-icons {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+}
+  
+li.flick {
+  list-style-type: none;
+}
+
+li.flick:hover {
+  transform: translateY(-3px);
+}
+
+h1.welcome {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+  text-align: center;
+  width: 38ch;
+  animation: typing 2s steps(38), blink .5s 1;
+  white-space: nowrap;
+  overflow: hidden;
+  /* font-size: 5vh; */
+  font-family: 'Castoro', serif;
+  /* font-size: calc(7px + 2vw); */
+} 
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  0% {
+    border-color: transparent
+  }
+}
+
+.ease, span {
+  color: #fff;
+  padding: 5px;
+  letter-spacing: .1vw;
+  text-decoration: none;
+  text-align: center;
+}
+
+.ease:hover {
+  color: blue;
+}
+
+a {
+  color: rgb(3, 173, 185);
+}
+
+.color-top {
+  color: #fff;
+}
+
+.harvard-mentoring-image:hover {
+  width: auto;
+}
+
+
+/* Style for the sections */
+
+.section {
+  padding: 20px 20px;
+  background-image: url(images/night_2.png);
+  width: 100vw;
+  background-size: cover;
+  color: #fff;
+  /* font-size: calc(3px + 1vw); */
+}
+
+.margin-right-3 {
+  text-align: center;
+  /* padding-top: 15px; */
+}
+
+.margin-right-4 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.spacing-headlines {
+  letter-spacing: 0.2vw;
+}
+
+ol.project-links {
+  text-align: justify;
+}
+
+.section-content {
+  max-width: 550px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: justify;
+}
+
+
+/* Style for the footer */
+
+footer {
+  text-align: center;
+  color: #000;
+  letter-spacing: .2vw;
+}
+
+/* @media all and (max-width: 850px) {
+  .overlay {
+    flex-direction: column;
+  }
+} */
