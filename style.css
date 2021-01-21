@@ -52,7 +52,7 @@ video {
 
 .ease {
   transition: .7s ease-in-out;
-  font-size: calc(5px + 1vw);
+  font-size: calc(6px + 1vw);
 }
 
 .margin-right-2 {
