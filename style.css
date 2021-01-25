@@ -133,6 +133,10 @@ a {
   border: 1px solid grey;
 }
 
+.for-iframe {
+  text-align: center;
+  width: 100%;
+}
 
 /* Style for the sections */
 
