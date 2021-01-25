@@ -65,7 +65,7 @@ ul.social-icons {
   display: inline-flex;
   justify-content: center;
 }
-  
+
 li.flick {
   list-style-type: none;
 }
@@ -86,14 +86,14 @@ h1.welcome {
   /* font-size: 5vh; */
   font-family: 'Castoro', serif;
   /* font-size: calc(7px + 2vw); */
-} 
+}
 
 @keyframes typing {
   from {
     width: 0
   }
 }
-    
+
 @keyframes blink {
   0% {
     border-color: transparent
@@ -117,15 +117,30 @@ a {
 }
 
 .color-top {
-  color: #fff;
+  color:#fff;
+  /* color: rgb(26, 28, 141); */
+}
+
+.harvard-mentoring-image {
+  width: 500px;
 }
 
 .harvard-mentoring-image:hover {
-  width: auto;
+  width: 575px;
+}
+
+.pic-ideas {
+  border: 1px solid grey;
 }
 
 
 /* Style for the sections */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .section {
   padding: 20px 20px;
@@ -133,25 +148,8 @@ a {
   width: 100vw;
   background-size: cover;
   color: #fff;
+  color: rgb(26, 28, 141);
   /* font-size: calc(3px + 1vw); */
-}
-
-.margin-right-3 {
-  text-align: center;
-  /* padding-top: 15px; */
-}
-
-.margin-right-4 {
-  text-align: center;
-  padding-top: 15px;
-}
-
-.spacing-headlines {
-  letter-spacing: 0.2vw;
-}
-
-ol.project-links {
-  text-align: justify;
 }
 
 .section-content {
@@ -159,6 +157,46 @@ ol.project-links {
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
+  text-align: justify;
+}
+
+.card {
+  flex: 1 1 50%;
+  margin: 30px;
+  padding: 20px 40px;
+  max-width: 500px;
+  text-align: justify;
+  background: rgb(227, 234, 241);
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.card-1 {
+  padding-top: 60px;
+}
+
+.card-2 {
+  padding-top: 45px;
+}
+
+.margin-right-3 {
+  text-align: center;
+  justify-content: center;
+  /* padding-top: 15px; */
+}
+
+.margin-right-4 {
+  text-align: center;
+  display: block;
+  /* padding-top: 45px; */
+  /* padding-bottom: 5px; */
+}
+
+.spacing-headlines {
+  letter-spacing: 0.2vw;
+}
+
+ol.project-links {
   text-align: justify;
 }
 
