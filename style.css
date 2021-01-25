@@ -136,6 +136,7 @@ a {
 .for-iframe {
   text-align: center;
   width: 100%;
+  height: 300px;
 }
 
 /* Style for the sections */
