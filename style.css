@@ -216,7 +216,7 @@ footer {
 
 /* Style for media queries */
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 900px) {
   .card-1 {
     padding-top: 0px;
   }
