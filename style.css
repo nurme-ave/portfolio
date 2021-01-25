@@ -153,7 +153,7 @@ a {
 }
 
 .section-content {
-  max-width: 550px;
+  max-width: 500px;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
@@ -161,10 +161,9 @@ a {
 }
 
 .card {
-  flex: 1 1 50%;
   margin: 30px;
   padding: 20px 40px;
-  max-width: 550px;
+  max-width: 500px;
   text-align: justify;
   background: rgb(227, 234, 241);
   border-bottom: 4px solid #ccc;
