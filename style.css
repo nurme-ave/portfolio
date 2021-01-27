@@ -186,6 +186,10 @@ a {
   padding-top: 45px;
 }
 
+.headlines {
+  font-weight: bold;
+}
+
 .margin-right-3 {
   text-align: center;
   justify-content: center;
