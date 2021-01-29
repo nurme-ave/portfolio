@@ -8,8 +8,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Castoro&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
         <script>  
-            window.onbeforeunload = function () {
-                window.scrollTo(0, 0);
+            if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+            } else {
+                window.onbeforeunload = function () {
+                    window.scrollTo(0, 0);
+                }
             }
         </script>
     </head>
