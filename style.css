@@ -89,7 +89,9 @@ h1.welcome {
 }
 
 @keyframes typing {
-  0% { width: 0 }
+  0% {
+    width: 0;
+  }
 }
 
 .ease, span {
