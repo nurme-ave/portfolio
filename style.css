@@ -80,7 +80,7 @@ h1.welcome {
   letter-spacing: 1vw;
   text-align: center;
   width: 38ch;
-  animation: typing 3s 1s steps(40, end);
+  animation: typing 3s steps(40, end);
   white-space: nowrap;
   overflow: hidden;
   /* font-size: 5vh; */
@@ -90,7 +90,6 @@ h1.welcome {
 
 @keyframes typing {
   from { width: 0% }
-  to { width: 50% }
 }
 
 .ease, span {
