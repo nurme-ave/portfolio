@@ -15,6 +15,10 @@ body {
   font-family: 'Castoro', serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Style for the header */
 
