@@ -66,10 +66,11 @@ ul.social-icons {
 
 li.flick {
   list-style-type: none;
+  transition: .5s ease-in-out;
 }
 
 li.flick:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
 }
 
 h1.welcome {
