@@ -50,18 +50,12 @@ video {
   font-size: calc(6px + 0.5vw);
 }
 
-/* span {
-  font-size: calc(5px + 1vw);
-} */
-
 .ease {
   transition: .7s ease-in-out;
-  /* font-size: calc(5px + 1vw); */
 }
 
 .margin-right-2 {
   margin-right: 65px;
-  /* font-size: calc(3px + 1vw); */
 }
 
 ul.social-icons {
@@ -87,9 +81,7 @@ h1.welcome {
   animation: typing 3s steps(40, end);
   white-space: nowrap;
   overflow: hidden;
-  /* font-size: 5vh; */
   font-family: 'Castoro', serif;
-  /* font-size: calc(7px + 2vw); */
 }
 
 @keyframes typing {
@@ -116,15 +108,7 @@ a {
 
 .color-top {
   color:#fff;
-  /* color: rgb(26, 28, 141); */
-}
-
-.harvard-mentoring-image {
-  width: 500px;
-}
-
-.harvard-mentoring-image:hover {
-  width: 575px;
+  padding: 1em;
 }
 
 .pic-ideas {
@@ -146,13 +130,13 @@ a {
 }
 
 .section {
+  border-top: 5px solid #002952;
   padding: 20px 20px;
   background-image: url(images/night_2.png);
   width: 100vw;
   background-size: cover;
   color: #fff;
   color: rgb(26, 28, 141);
-  /* font-size: calc(3px + 1vw); */
 }
 
 .section-content {
@@ -188,10 +172,10 @@ a {
 .margin-right-3 {
   text-align: center;
   justify-content: center;
-  /* padding-top: 15px; */
 }
 
 .margin-right-4 {
+  font-style: italic;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -227,11 +211,6 @@ footer {
 
   .pic-ideas {
     height: 200px;
-  }
-
-  .harvard-mentoring-image {
-    width: 100%;
-    height: 250px;
   }
   
   .card {
