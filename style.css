@@ -212,6 +212,7 @@ footer {
 
   .pic-ideas {
     height: 200px;
+    width: 100%;
   }
   
   .card {
@@ -222,4 +223,6 @@ footer {
   .margin-right-4 {
     padding-bottom: 0px;
   }
+  
+  
 }
