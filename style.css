@@ -23,7 +23,7 @@ img {
 /* Style for the header */
 
 .video-images {
-  background: url(images/forest_sunset_image.png);
+  background: url("images/forest_sunset_image.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
